@@ -26,10 +26,13 @@ The number of layers in MLP is not fixed and thus can have any number of hidden 
 **Algorithm :**
 
 Step 1 : Initialize the input patterns for XOR Gate
+
 Step 2: Initialize the desired output of the XOR Gate
+
 Step 3: Initialize the weights for the 2 layer MLP with 2 Hidden neuron 
               and 1 output neuron
-Step 3: Repeat the  iteration  until the losses become constant and 
+
+Step 4: Repeat the  iteration  until the losses become constant and 
               minimum
               (i)  Compute the output using forward pass output
               (ii) Compute the error  
@@ -37,7 +40,8 @@ Step 3: Repeat the  iteration  until the losses become constant and
                      propagation algorithm.
              (iv) Modify the weight as per delta rule.
              (v)   Append the losses in a list
-Step 4 : Test for the XOR patterns.
+
+Step 5 : Test for the XOR patterns.
 
 ** PROGRAM**
 
